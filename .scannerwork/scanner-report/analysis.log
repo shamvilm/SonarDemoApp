@@ -1,0 +1,35 @@
+SonarQube plugins:
+  - Swift (Backelite) 0.4.4 (backelitesonarswiftplugin)
+Global server settings:
+  - sonar.core.id=BF41A1F2-AXH0KCXuEO-L3GjkF3ZA
+  - sonar.core.startTime=2020-05-15T10:07:38+0530
+Project server settings:
+Project scanner properties:
+  - sonar.exclusions=**/*.xml,Pods/**/*,Reports/**/*
+  - sonar.host.url=http://localhost:9000
+  - sonar.junit.reportsPath=sonar-reports/TEST-report.xml
+  - sonar.language=swift
+  - sonar.login=******
+  - sonar.password=******
+  - sonar.projectBaseDir=/Users/shamvil/Desktop/SonarDemoApp
+  - sonar.projectKey=com.test.test.SonarDemoApp
+  - sonar.projectName=SonarDemoApp
+  - sonar.projectVersion=1.0
+  - sonar.scanner.app=ScannerCli
+  - sonar.scanner.appVersion=4.3.0.2102
+  - sonar.sourceEncoding=UTF-8
+  - sonar.sources=.
+  - sonar.swift.appConfiguration=Debug
+  - sonar.swift.appName=SonarDemoApp
+  - sonar.swift.appScheme=SonarDemoApp
+  - sonar.swift.coverage.reportPattern=sonar-reports/coverage-swift*.xml
+  - sonar.swift.project=SonarDemoApp.xcodeproj
+  - sonar.swift.simulator=platform=iOS Simulator,name=iPhone 8,OS=13.3
+  - sonar.swift.swiftlint.report=sonar-reports/*swiftlint.txt
+  - sonar.swift.tailor.config=--no-color --max-line-length=100 --max-file-length=500 --max-name-length=40 --max-name-length=40 --min-name-length=4
+  - sonar.swift.tailor.report=sonar-reports/*tailor.txt
+  - sonar.swift.workspace=SonarDemoApp.xcworkspace
+  - sonar.test.inclusions=*.swift
+  - sonar.tests=SonarDemoAppTests,SonarDemoAppUITests
+  - sonar.verbose=true
+  - sonar.working.directory=/Users/shamvil/Desktop/SonarDemoApp/.scannerwork

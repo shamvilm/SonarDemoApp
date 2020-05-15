@@ -1,0 +1,6 @@
+framework module Pods_SonarDemoApp_SonarDemoAppUITests {
+  umbrella header "Pods-SonarDemoApp-SonarDemoAppUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

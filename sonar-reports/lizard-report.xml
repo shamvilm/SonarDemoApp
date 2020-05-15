@@ -1,0 +1,206 @@
+<?xml version="1.0" ?>
+<?xml-stylesheet type="text/xsl" href="https://raw.githubusercontent.com/terryyin/lizard/master/lizard.xsl"?>
+<cppncss>
+	<measure type="Function">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+		</labels>
+		<item name="setUp(...) at ./SonarDemoAppTests/SonarDemoAppTests.swift:14">
+			<value>1</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="tearDown(...) at ./SonarDemoAppTests/SonarDemoAppTests.swift:18">
+			<value>2</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testExample(...) at ./SonarDemoAppTests/SonarDemoAppTests.swift:22">
+			<value>3</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testPerformanceExample(...) at ./SonarDemoAppTests/SonarDemoAppTests.swift:27">
+			<value>4</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="2"/>
+		<average label="CCN" value="1"/>
+		<item name="setUp(...) at ./SonarDemoAppUITests/SonarDemoAppUITests.swift:13">
+			<value>5</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="tearDown(...) at ./SonarDemoAppUITests/SonarDemoAppUITests.swift:22">
+			<value>6</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="testExample(...) at ./SonarDemoAppUITests/SonarDemoAppUITests.swift:26">
+			<value>7</value>
+			<value>4</value>
+			<value>1</value>
+		</item>
+		<item name="testLaunchPerformance(...) at ./SonarDemoAppUITests/SonarDemoAppUITests.swift:35">
+			<value>8</value>
+			<value>6</value>
+			<value>2</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="viewDidLoad(...) at ./SonarDemoApp/ViewController.swift:13">
+			<value>9</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="application(...) at ./SonarDemoApp/AppDelegate.swift:16">
+			<value>10</value>
+			<value>3</value>
+			<value>2</value>
+		</item>
+		<item name="application(...) at ./SonarDemoApp/AppDelegate.swift:23">
+			<value>11</value>
+			<value>3</value>
+			<value>1</value>
+		</item>
+		<item name="application(...) at ./SonarDemoApp/AppDelegate.swift:29">
+			<value>12</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="3"/>
+		<average label="CCN" value="1"/>
+		<item name="scene(...) at ./SonarDemoApp/SceneDelegate.swift:16">
+			<value>13</value>
+			<value>3</value>
+			<value>2</value>
+		</item>
+		<item name="sceneDidDisconnect(...) at ./SonarDemoApp/SceneDelegate.swift:23">
+			<value>14</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="sceneDidBecomeActive(...) at ./SonarDemoApp/SceneDelegate.swift:30">
+			<value>15</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="sceneWillResignActive(...) at ./SonarDemoApp/SceneDelegate.swift:35">
+			<value>16</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="sceneWillEnterForeground(...) at ./SonarDemoApp/SceneDelegate.swift:40">
+			<value>17</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<item name="sceneDidEnterBackground(...) at ./SonarDemoApp/SceneDelegate.swift:45">
+			<value>18</value>
+			<value>2</value>
+			<value>1</value>
+		</item>
+		<average label="NCSS" value="2"/>
+		<average label="CCN" value="1"/>
+	</measure>
+	<measure type="File">
+		<labels>
+			<label>Nr.</label>
+			<label>NCSS</label>
+			<label>CCN</label>
+			<label>Functions</label>
+		</labels>
+		<item name="./SonarDemoAppTests/SonarDemoAppTests.swift">
+			<value>1</value>
+			<value>14</value>
+			<value>4</value>
+			<value>4</value>
+		</item>
+		<item name="./SonarDemoAppUITests/SonarDemoAppUITests.swift">
+			<value>2</value>
+			<value>19</value>
+			<value>5</value>
+			<value>4</value>
+		</item>
+		<item name="./Pods/Target Support Files/Pods-SonarDemoAppTests/Pods-SonarDemoAppTests-dummy.m">
+			<value>3</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Pods/Target Support Files/Pods-SonarDemoAppTests/Pods-SonarDemoAppTests-umbrella.h">
+			<value>4</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Pods/Target Support Files/Pods-SonarDemoApp/Pods-SonarDemoApp-dummy.m">
+			<value>5</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Pods/Target Support Files/Pods-SonarDemoApp/Pods-SonarDemoApp-umbrella.h">
+			<value>6</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Pods/Target Support Files/Pods-SonarDemoApp-SonarDemoAppUITests/Pods-SonarDemoApp-SonarDemoAppUITests-umbrella.h">
+			<value>7</value>
+			<value>2</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./Pods/Target Support Files/Pods-SonarDemoApp-SonarDemoAppUITests/Pods-SonarDemoApp-SonarDemoAppUITests-dummy.m">
+			<value>8</value>
+			<value>4</value>
+			<value>0</value>
+			<value>0</value>
+		</item>
+		<item name="./SonarDemoApp/ViewController.swift">
+			<value>9</value>
+			<value>6</value>
+			<value>1</value>
+			<value>1</value>
+		</item>
+		<item name="./SonarDemoApp/AppDelegate.swift">
+			<value>10</value>
+			<value>12</value>
+			<value>4</value>
+			<value>3</value>
+		</item>
+		<item name="./SonarDemoApp/SceneDelegate.swift">
+			<value>11</value>
+			<value>17</value>
+			<value>7</value>
+			<value>6</value>
+		</item>
+		<average label="NCSS" value="7"/>
+		<average label="CCN" value="1"/>
+		<average label="Functions" value="1"/>
+		<sum label="NCSS" value="86"/>
+		<sum label="CCN" value="21"/>
+		<sum label="Functions" value="18"/>
+		<average label="NCSS" value="2.72222222222"/>
+		<average label="CCN" value="1.16666666667"/>
+	</measure>
+</cppncss>
+
